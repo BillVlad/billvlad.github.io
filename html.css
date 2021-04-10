@@ -2,7 +2,7 @@
     background-repeat: no-repeat, repeat;
 }
 .rickroll {
-    background: url('background.jpg');
+    background: url('media/background.jpg');
     background: white; 
     display: inline-block; 
     width: 200px; 
