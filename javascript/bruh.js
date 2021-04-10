@@ -2,5 +2,6 @@ var bruh = 'Была нажата кнопка и включается рикр�
 var audioElement = new Audio('bruh.mp3');
 
 function AudioBruh() {
-    window.location.assign('https://www.youtube.com/watch?v=Fve_lHIPa-I');
+    alert('Страничка откроется после того, как вы нажмёте на кнопку "OK"')
+    window.open('https://www.youtube.com/watch?v=Fve_lHIPa-I');
 }
