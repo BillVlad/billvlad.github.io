@@ -1,22 +1,24 @@
-.github {
-        background: whitesmoke;
-        display: inline-block; 
-        width: 200px; 
-        height: 50px; 
-        margin: 11px;
-        position: absolute; 
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.349), 0 10px 10px rgba(0, 0, 0, 0.39);
-        image-rendering: optimizeSpeed;
+* {
+        box-sizing: border-box;
 }
-.play {
-        text-align: center;
-        background-color: black;
-        display: inline-block;
-        border: none;
-        color: black;
-        font-size: 20px;
-        margin-right: auto;
-        margin-bottom: 2%;
+html {
+        background-color: lightseagreen;
+}
+.Box-header {
+        position: sticky;
+        top: 0; left: 0; right: 0; z-index: 1;
+        line-height: 60px;
+        margin: 0;
+        font-size: 1.4em;
+        font-weight: bold;
+        background: rgba(228, 228, 228, 0.788);
+        backdrop-filter: blur(5px);
+      }
+
+body {
+        max-width: 1200px;
+        margin: auto;
+        background-color: white;
 }
 .audio {
         text-align: center;
@@ -27,7 +29,33 @@
         font-size: 20px;
 }
 .video {
+        width: 100%;
+        max-width: 960px;
+        height: 30%;
+        margin: 60 5;
         background-color: black;
         display: inline-block;
-        box-shadow: 5px 10px 15px whitesmoke;
+        position: static;
+        box-shadow: 0 14px 28px #00000025, 0 10px 10px #00000025;
+}
+@media screen and (min-width: 420px) {
+        .video {
+                max-width: 52%;
+        }
+}
+
+@media (min-width: 760px) {
+        .video {
+                max-width: 24%;
+        }
+}
+.github {
+        background: hsla(0, 0%, 82%, 0.589);
+        top: 5px; left: auto; width: 50px; height: 50px; z-index: 2;
+        margin: 5px;
+        display: inline-block;
+        position: sticky;
+        image-rendering: optimizeSpeed;
+        cursor: pointer;
+        overflow: auto;
 }
