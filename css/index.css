@@ -59,3 +59,10 @@ body {
         cursor: pointer;
         overflow: auto;
 }
+.pr {
+        margin: 0;
+}
+.pr a {
+        color: black;
+        font-style: normal;
+}
