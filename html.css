@@ -1,10 +1,12 @@
-.rickroll {
+.github {
+        background: whitesmoke;
         display: inline-block; 
         width: 200px; 
-        height: 100px; 
-        margin: 120px;
+        height: 50px; 
+        margin: 11px;
         position: absolute; 
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.349), 0 10px 10px rgba(0, 0, 0, 0.39);
+        image-rendering: optimizeSpeed;
 }
 .play {
         text-align: center;
