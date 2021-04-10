@@ -1,0 +1,36 @@
+.body {
+    background-repeat: no-repeat, repeat;
+}
+.rickroll {
+    background: url('background.jpg');
+    background: white; 
+    display: inline-block; 
+    width: 200px; 
+    height: 100px; 
+    margin: 120px;
+    position: absolute; 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.play {
+        text-align: center;
+        background-color: black;
+        display: inline-block;
+        border: none;
+        color: black;
+        font-size: 20px;
+        margin-right: auto;
+        margin-bottom: 2%;
+}
+.audio {
+        text-align: center;
+        background-color: black;
+        display: inline-block;
+        border: none;
+        color: black;
+        font-size: 20px;
+}
+.video {
+        background-color: black;
+        display: inline-block;
+        box-shadow: 5px 10px 15px whitesmoke;
+}
