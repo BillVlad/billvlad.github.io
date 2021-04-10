@@ -1,12 +1,10 @@
 .rickroll {
-        background: url('media/background.jpg');
-        background: white; 
         display: inline-block; 
         width: 200px; 
         height: 100px; 
         margin: 120px;
         position: absolute; 
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.349), 0 10px 10px rgba(0, 0, 0, 0.39);
 }
 .play {
         text-align: center;
