@@ -1,5 +1,5 @@
 var bruh = 'Была нажата кнопка и включается рикролл';
-var audioElement = new Audio('bruh.mp3');
+var audioElement = new Audio('media/bruh.mp3');
 
 function AudioBruh() {
     alert('Страничка откроется после того, как вы нажмёте на кнопку "OK"')
