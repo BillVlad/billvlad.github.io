@@ -3,10 +3,10 @@
 }
 html {
         background: url('../media/linuxporn.png');
-        backdrop-filter: blur(5px);
 }
 .Box-header {
         position: sticky;
+        top: 10px;
         top: 0; left: 0; right: 0; z-index: 1;
         line-height: 60px;
         margin: 0;
@@ -15,7 +15,6 @@ html {
         background: rgba(228, 228, 228, 0.788);
         backdrop-filter: blur(5px);
       }
-
 body {
         max-width: 1000px;
         padding: 10px;
