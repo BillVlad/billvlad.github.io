@@ -59,13 +59,14 @@ body {
 }
 .buttdababy {
         border: 0;
-        background: url('../media/dababy.jpg');
-        background-size:cover;
         position: sticky;
-        font-size: 50px;
+        font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
         color: black;
-        width: 480px; height: 360px;
+        width: 255px; height: 255px;
         margin: 5px;
         box-shadow: 2px 2px 5px black;
+}
+.butt {
+        font-display: bold;
 }
