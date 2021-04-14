@@ -72,4 +72,5 @@ body {
 .videorick {
 position: sticky;
 margin: 5px;
+display: inline-block;
 }
