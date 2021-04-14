@@ -69,6 +69,7 @@ body {
 .butt {
         font-display: bold;
 }
-.video {
+.videorick {
 position: sticky;
+margin: 5px;
 }
