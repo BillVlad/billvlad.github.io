@@ -6,7 +6,6 @@ html {
 }
 .Box-header {
         position: sticky;
-        top: 10px;
         top: 0; left: 0; right: 0; z-index: 1;
         line-height: 60px;
         margin: 0;
