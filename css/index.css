@@ -80,4 +80,4 @@ box-shadow: 1px 1px 5px black;
         display: inline-block;
         margin:0;
 }
-.content { background: rgba(228, 228, 228, 0.900); backdrop-filter: blur(5px);}
+.content { display: inline-block; background: rgba(228, 228, 228, 0.900); backdrop-filter: blur(5px);}
