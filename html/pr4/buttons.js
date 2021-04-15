@@ -1,4 +1,4 @@
-var AudioGlek = new Audio('media/bruh.mp3')
+var AudioGlek = new Audio('../../media/bruh.mp3')
 
 function GithubPages() {
     window.open('https://github.com/BillVlad/billvlad.github.io');
