@@ -16,10 +16,11 @@ html {
         backdrop-filter: blur(5px);
       }
 body {
-        max-width: 0px;
+        max-width: 1200px;
         padding: 10px;
         margin: auto;
         background-color: none;
+        backdrop-filter: blur(5px);
 }
 .audio {
         text-align: center;
@@ -80,4 +81,3 @@ box-shadow: 1px 1px 5px black;
         display: inline-block;
         margin:0;
 }
-.content { width: 1200px; display: inline-block; background: rgba(228, 228, 228, 0.900); backdrop-filter: blur(5px);}
