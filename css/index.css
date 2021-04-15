@@ -19,7 +19,7 @@ body {
         max-width: 1200px;
         padding: 10px;
         margin: auto;
-        background-color: none;
+        background: rgba(228, 228, 228, 0.900);
         backdrop-filter: blur(5px);
 }
 .audio {
