@@ -78,4 +78,5 @@ box-shadow: 1px 1px 5px black;
 .titlehead {
         position: sticky;
         display: inline-block;
+        margin:0;
 }
