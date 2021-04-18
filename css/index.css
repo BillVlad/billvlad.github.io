@@ -50,11 +50,9 @@ body {
         cursor: pointer;
         overflow: auto;
 }
-a {
+/*a {
         color: black;
-        font-style: normal;
-        text-decoration: none;
-}
+}*/
 .buttdababy {
         border: 0;
         position: sticky;
