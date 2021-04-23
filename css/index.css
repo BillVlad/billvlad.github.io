@@ -12,7 +12,7 @@ html {
         padding: 0;
         font-size: 1.4em;
         font-weight: bold;
-        background: rgba(228, 228, 228, 0.623);
+        background: rgba(228, 228, 228, 0.699);
         backdrop-filter: blur(5px);
 }
 body {
@@ -41,7 +41,7 @@ body {
         }
 }
 .github {
-        background: hsla(0, 0%, 82%, 0.589);
+        background: hsla(0, 0%, 100%, 1);
         top: 5px; left: auto; width: 50px; height: 50px; z-index: 2;
         margin: 5px;
         display: inline-block;
@@ -70,6 +70,10 @@ body {
 }
 .titlehead {
         position: sticky;
+        text-align: center;
         display: inline-block;
         margin: 0;    
+}
+.bruh {
+        border: 5px;
 }
