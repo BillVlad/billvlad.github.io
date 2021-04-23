@@ -29,3 +29,7 @@ function reset() {
 function submit() {
     document.getElementById("content").style.color = ThesInput2.value
 };
+
+function keycheck() {
+    document.getElementById("key").innerHTML = "<object width=1200 height=600 data='html/tester.html'></object>"
+}
