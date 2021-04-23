@@ -24,4 +24,4 @@ ThesInput1.addEventListener("input", function() {
 
 function submit() {
     document.getElementById("content").style.color = ThesInput2.value
-}
+};
