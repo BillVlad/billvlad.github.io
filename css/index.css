@@ -5,15 +5,21 @@ html {
         background: url('../media/linuxporn.png');
 }
 .Box-header {
-        position: sticky;
+        position: fixed;
         top: 0; left: 0; right: 0; z-index: 1;
         line-height: 50px;
         margin: 0;
         padding: 0;
         font-size: 1.4em;
+        text-align: center;
         font-weight: bold;
         background: #e4e4e4b2;
         backdrop-filter: blur(5px);
+}
+.instrument {
+        display: inline-block;
+        position: relative;
+        margin-top: 50px;
 }
 body {
         max-width: 1200px;
@@ -42,7 +48,7 @@ body {
 }
 .github {
         background: hsla(0, 0%, 100%, 1);
-        top: 5px; left: auto; width: 50px; height: 50px; z-index: 2;
+        top: 0px; left: auto; width: 50px; height: 50px; z-index: 2;
         margin: 5px;
         display: inline-block;
         position: sticky;
@@ -50,18 +56,20 @@ body {
         cursor: pointer;
         overflow: auto;
 }
-
-/*a {
-        color: black;
-}*/
 .buttdababy {
-        border: 0;
+        background: hsla(0, 0%, 100%, 1);
+        font-size: 20px;
+        margin-bottom: 50px;
+        display: inline-block;
         position: sticky;
-        font-size: 25px;
-        font-family: 'Times New Roman', Times, serif;
-        color: black;
-        margin: 5px;
-        box-shadow: 2px 2px 5px black;
+        image-rendering: optimizeSpeed;
+        cursor: pointer;
+        overflow: auto;
+}
+.button {
+        position: relative;
+        display: inline-block;
+        margin-top: 2px;
 }
 .videorick {
         position: sticky;

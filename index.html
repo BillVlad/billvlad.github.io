@@ -4,56 +4,55 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Практические работы по информатике ПР 20/1 ГПОУ МПК</title>
-        <div id="box-header" class="box-header">
-            <button title="Github Репозиторий" type="button" class="button github" onclick="GithubPages()">
-                <img align=center width="32" height="32" src=media/github_ico.png>
-            </button>
-            <p align=center class='titlehead'>Cтраница BillVLad'а</p>
-        </div>
     </head>
     <body link="black">
-    <link href=css/index.css rel=stylesheet>
-        <div id="content" class="content">
-            <fieldset>
-                <legend>Инструменты для разработки</legend>
-                <div>
-                  <legend><b>Цвет шапки:</legend>
-                    <input class=value id="colorb" type="color">
-                    <input class=button type="reset" onclick="reset()">
-                    <legend><b>Цвет текста:</legend>
-                        <input id=colora type="value">
-                        <input class="button2" id=submit type="submit" onclick="submit()">
-                    <p id='videoless'></p>
-                </div>
-            </fieldset>
-            <div id=bio>
-            <h1>Обо мне (SCP 075):</h1>
-            <p>
-            Меня зовут Владислав Шевченко, родом я из <ДАННЫЕ УДАЛЕНЫ></br>
-            Год рождения - <time>01.02.2005</time></br>
-            <ДАННЫЕ УДАЛЕНЫ></br>
-            Учу языки программирования: Python, javascript.
-            Также изучаю HTML, CSS.</br>
-            Любимые жанры музыки: рок, метал, поп...</br>
-            </p>
-            </div>
-        <h1>Контакты:</h1>
-        <p id="contact">
-            Discord: BillVLad#4499</br>
-            Telegram: @billvlad5</br>
-            E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></br>
-        </p>
-        <p id=key></p>
-        <h1>Ссылки:</h1>
-        <div class="pr">
-            <h2><a href=html/pr1.html>Ссылка на первую практическую работу</a></h2>
-            <h2><a href=html/pr2.html>Ссылка на вторую практическую работу</a></h2>        
-            <h2><a href=html/pr3.html>Ссылка на третью практическую работу</a></h2>
-            <h2><a href=html/pr4/rasp.html>Ссылка на четвёртую практическую работу</a></h2>
-            <h2><a href=html/notes.html>Заметки</a></h2>
-            <h2><a onclick="keycheck()">Keyboard Checker</a></h2>
-            <button type="button" class="buttdababy" oncontextmenu="bruh()" onclick="easteregg()">no click to button</button>
+        <link href=css/index.css rel=stylesheet>
+        <div id="box-header" class="box-header">
+            <p align=center class='titlehead'>Cтраница BillVLad'а</p>
         </div>
-    <script src=javascript/buttons.js></script>
+            <fieldset class=instrument>
+                <legend>Инструменты для разработки</legend>
+                    <input class=value id="colorb" type="color">
+                    <input type="reset" onclick="reset()">
+                    <legend>Цвет текста:</legend>
+                    <input id=colora type="value">
+                    <input class="button2" id=submit type="submit" onclick="submit()">
+                    <input type="reset" onclick="resettext()">
+                    <button class="button" type="button" onclick="keycheck()">Keyboard Checker</button>
+                    <input type="reset" onclick="keystop()">
+                    <p id='videoless'></p>
+            </fieldset>
+            <p id=key></p>
+            <div id=bio>
+                <h1>Обо мне (SCP 075):</h1>
+                <p>
+                    Меня зовут Владислав Шевченко, родом я из <ДАННЫЕ УДАЛЕНЫ>
+                        </br>
+                        Год рождения - <time>01.02.2005</time></br>
+                        <ДАННЫЕ УДАЛЕНЫ>
+                            </br>
+                            Учу языки программирования: Python, javascript.
+                            Также изучаю HTML, CSS.</br>
+                            Любимые жанры музыки: рок, метал, поп...</br>
+                </p>
+            </div>
+                <h1>Контакты:</h1>
+                <p id="contact">
+                    Discord: BillVLad#4499</br>
+                    Telegram: @billvlad5</br>
+                    E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></br>
+                </p>
+                <h1>Ссылки:</h1>
+                <div class="pr">
+                    <h2><a href=html/pr1.html>Ссылка на первую практическую работу</a></h2>
+                    <h2><a href=html/pr2.html>Ссылка на вторую практическую работу</a></h2>
+                    <h2><a href=html/pr3.html>Ссылка на третью практическую работу</a></h2>
+                    <h2><a href=html/pr4/rasp.html>Ссылка на четвёртую практическую работу</a></h2>
+                    <h2><a href=html/notes.html>Заметки</a></h2>
+                    <button title="Github Репозиторий" type="button" class="button github" onclick="GithubPages()">
+                        <img align=center width="32" height="32" src=media/github_ico.png>
+                    </button><button type="button" class="buttdababy" oncontextmenu="bruh()" onclick="easteregg()">no click to button</button>
+                </div>
+        <script src=javascript/buttons.js></script>
     </body>
 </html>

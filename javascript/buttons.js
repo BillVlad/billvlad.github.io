@@ -30,10 +30,26 @@ function submit() {
     document.getElementById("content").style.color = ThesInput2.value
 };
 
+function resettext() {
+    document.getElementById("content").style.color = "#000000"
+};
+
 function keycheck() {
     if(window.screen.width >= 600){
         document.getElementById("key").innerHTML = "<object width=1200 height=600 data='html/tester.html'></object>"
     } else{
         alert("На телефоне открыть тестер клавиатуры нельзя!")
     }
-}
+};
+
+function keystop() {
+    document.getElementById("key").innerHTML = "";
+};
+
+function hui() {
+    let hui = document.createElement("div");
+    hui.innerHTML = "<h1>penis</h1>";
+    // Обьект нужно разместить в DOM (разметку документа)
+    myDic = document.getElementById("bio");
+    document.body.insertBefore(hui, myDic);
+};
