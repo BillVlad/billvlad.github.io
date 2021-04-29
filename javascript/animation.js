@@ -12,7 +12,7 @@ buttoun.addEventListener("click", sail);
 // подготовка к отплытию — функция, которая сработает по нажатию кнопки
 function sail() {
 	// выводим надпись
-	buttoun.innerText = 'Счастливого пути нахуй!'
+	buttoun.innerText = 'чё...'
 	// превращаем кнопку в лодку
 	buttoun.style.setProperty("border-radius", "10px 10px 100px 100px");
 	// поднимаем мачту
