@@ -37,7 +37,7 @@ function resettext() {
 
 function keycheck() {
     if(window.screen.width >= 600){
-        document.getElementById("key").innerHTML = "<object width=1200 height=600 data='html/tester.html'></object>"
+        document.getElementById("key").innerHTML = "<object width=1200 height=420 data='html/tester.html'></object>"
     } else{
         alert("На телефоне открыть тестер клавиатуры нельзя!")
     }
