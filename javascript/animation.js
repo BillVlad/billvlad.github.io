@@ -33,5 +33,5 @@ function hoist() {
 // уплываем за экран
 function sailaway() {
 	// движемся на 150 пикселей правее правой границы экрана
-	container.style.setProperty("transform", "translatex(calc(100vw - 150px)");
+	container.style.setProperty("transform", "translatex(calc(100vw - 350px)");
 }
