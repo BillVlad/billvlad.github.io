@@ -4,57 +4,47 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Личная страница Владислава Шевченко</title>
-    </head>
-    <body link="black">
         <link href=css/index.css rel=stylesheet>
-        <div id="box-header" class="box-header">
-            <img style="margin: 5px; width: 60px;"  src="./media/fredidens.gif">
-            <p align=center class='titlehead'>Cтраница Влада-Алада</p>
-            <img style="margin: 5px; width: 60px;" src="./media/fredidens.gif">
-        </div>
-        <fieldset class=instrument>
-            <legend>Инструменты для разработки</legend>
-            <input class=value id="colorb" type="color">
-            <input type="reset" onclick="reset()">
-            <legend>Цвет текста:</legend>
-            <input id=colora type="text">
-            <input class="button2" id=submit type="submit" onclick="submit()">
-            <input type="reset" onclick="resettext()">
-            <legend>Keyboard Tester:</legend>
-            <button class="button" type="button" onclick="keycheck()">Test</button>
-            <input type="reset" onclick="keystop()">
-        </fieldset>
+    </head>
+    <body>
+      <div id="box-header" class="box-header">
+          <p align=center class='titlehead'>Cтраница Владислава Шевченко</p>
+      </div>
+      <div class="content-blog" id='con'>
         <p id=key></p>
-        <div id=bio>
+        <div id=bio class='bio'>
             <h1>Обо мне (SCP 075):</h1>
             <p>
                 Меня зовут Владислав Шевченко, родом я из <ДАННЫЕ УДАЛЕНЫ></br>
                     Год рождения - <time>01.02.2005</time></br>
                     Учу языки программирования: Python, javascript.
                     Также изучаю HTML, CSS.</br>
+                    Есть <a href="https://github.com/BillVlad">Github</a> аккаунт, где я и храню этот сайт </br>
                     Любимые жанры музыки: рок, метал, поп...</br>
             </p>
         </div>
+        <div class='contact'>
         <h1>Контакты:</h1>
-        <p id="contact">
-            Discord: BillVLad#4499</br>
-            Telegram: <a href="https://t.me/billvlad5">billvlad5</a></br>
-            E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></br>
-        </p>
+          <p id="contact">
+              Discord: BillVLad#4499</br>
+              Telegram: <a href="https://t.me/billvlad5">billvlad5</a></br>
+              E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></br>
+          </p>
+        </div>
         <h1>Ссылки:</h1>
         <div class="pr">
             <h4><a href=html/pr1.html>1 практическая работа</a></h4>
             <h4><a href=html/pr2.html>2 практическая работа</a></h4>
             <h4><a href=html/pr3.html>3 практическую работу</a></h4>
             <h4><a href=html/pr4/index.html>4 практическая работа</a></h4>
-            <h4><a href=html/notes.html>Заметки</a></h4>
             <h4><a href=html/Zadania_dlya_podgotovki_k_ekzamenu_po_Matematike.htm>Подготовка к экзамену ГПОУ МПК</a></h4>
-        <section>
-            <button title="Github Репозиторий" type="button" class="button github" onclick="GithubPages()">
-                <img width="32" height="32" src=media/github_ico.png>
-            </button>
-            <button type="button" class="buttdababy" oncontextmenu="bruh()" onclick="easteregg()">пасхал очка</button>
-        </section>
-        <script src=javascript/buttons.js></script>
+            <h4><a href="javascript:void(0)" onclick="showHide('instrument')">Инструменты</a></h4>
+            <div class="instrument" id='instrument'>
+                <h4>Keyboard Tester:</h4>
+                <button class="button" type="button" onclick="keycheck()">Test</button>
+                <input class="button" type="reset" onclick="keystop()">
+            </div>
+        <script src=javascript/scripts.js></script>
+      </div>
     </body>
 </html>

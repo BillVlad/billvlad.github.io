@@ -1,93 +1,66 @@
-﻿* {
-        box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
 }
 html {
-        background: url('../media/linuxporn.png');
+    /*background: linear-gradient(blue, yellow);*/
+    background: url('/media/material.jpg');
 }
 .Box-header {
-        position: fixed;
-        top: 0; left: 0; right: 0; z-index: 1;
-        line-height: 50px;
-        margin: 0;
-        display:flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        padding: 0;
-        font-size: 1.4em;
-        text-align: center;
-        font-weight: bold;
-        background: #e4e4e4b2;
-        backdrop-filter: blur(5px);
+    position: absolute;
+    top: 155px; left: 550px; right: 500px; z-index: 1;
+    line-height: 200px;
+    display: inline-block;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+    /*всё, что связано с шрифтами*/
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #222222;
 }
 .instrument {
-        display: inline-block;
-        position: relative;
-        margin-top: 70px;
+    display: none;
+    position: relative;
 }
 body {
-    max-width: 1200px;
-    padding: 10px;
+    max-width: auto;
+    display: inherit;
     margin: auto;
+    margin-top: 500px;
+    padding: 10px;
     overflow-x: hidden;
+    box-shadow: 2px, 2px, 30px;
     background-color: #fff;
-}
-.audio {
-        text-align: center;
-        background-color: black;
-        display: inline-block;
-        border: none;
-        color: black;
-        font-size: 20px;
-}
-@media screen and (min-width: 420px) {
-        .video {
-                max-width: 52%;
-        }
+    border-radius: 10px;
 }
 
-@media (min-width: 760px) {
-        .video {
-                max-width: 24%;
-        }
+.content-blog {
+    background-color: #eeeeee;
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    box-shadow: 1px 1px 8px;
+    border-radius: 10px;
 }
-.github {
-        background: hsla(0, 0%, 100%, 1);
-        top: 0px; left: auto; width: 50px; height: 50px; z-index: 2;
-        margin: 5px;
-        display: inline-block;
-        position: sticky;
-        image-rendering: optimizeSpeed;
-        cursor: pointer;
-        overflow: auto;
+
+a {
+    color: black;
 }
-.buttdababy {
-        background: hsla(0, 0%, 100%, 0.00);
-        font-size: 20px;
-        margin-bottom: 50px;
-        display: inline-block;
-        position: sticky;
-        image-rendering: optimizeSpeed;
-        cursor: pointer;
-        overflow: auto;
-}
-.button {
-        position: relative;
-        display: inline-block;
-        margin-top: 2px;
-}
-.videorick {
-        position: sticky;
-        margin: 5px;
-        display: inline-block;
-        box-shadow: 1px 1px 5px black;
-}
+
 .titlehead {
-        position: sticky;
-        text-align: center;
-        display: inline-block;
-        margin: 0;
+    position: sticky;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
 }
-.bruh {
-        border: 5px;
+
+.button {
+    background: #fff;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
