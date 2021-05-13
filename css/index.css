@@ -8,14 +8,14 @@ html {
 }
 .Box-header {
     position: absolute;
-    top: 155px; left: 550px; right: 500px; z-index: 1;
-    line-height: 200px;
+    top: 20%; left: 30%; right: 30%;
+    line-height: 100px;
     display: inline-block;
     background-color: #eeeeee;
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
-    font-size: 50px;
+    font-size: 46px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     color: #222222;

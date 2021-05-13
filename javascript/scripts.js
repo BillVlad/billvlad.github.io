@@ -7,15 +7,14 @@ var desktopscreen = window.screen.width >= 600;
   /*mobile view*/
 if (mobilescreen){
   let head = document.getElementById('box-header');
-  head.style.fontSize = '23px';
+  head.style.fontSize = '19px';
   head.style.display = 'absolute';
-  con.style.boxShadow = 'none';
-  head.style.top = '140px';
-  head.style.left = '45px';
-  head.style.right = 'auto';
+  head.style.top = '9%';
+  head.style.left = '20%';
+  head.style.right = '20%';
   head.style.maxWidth = '700px'
   head.style.lineHeight = '50px';
-  document.body.style.marginTop = '300px';
+  document.body.style.marginTop = '200px';
 }
 //*end initialization*//
 
