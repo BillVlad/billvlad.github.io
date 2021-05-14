@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    /*background: linear-gradient(blue, yellow);*/
-    background: url('/media/material.jpg');
+  /*background: linear-gradient(blue, yellow);*/
+  background: url('/media/material.jpg');
 }
-.Box-header {
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+  .Box-header {
     position: absolute;
     top: 20%; left: 30%; right: 30%;
     line-height: 100px;
@@ -15,52 +17,73 @@ html {
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
-    font-size: 46px;
+    font-size: 40px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     color: #222222;
-}
-.instrument {
-    display: none;
-    position: relative;
-}
-body {
+  }
+  body {
     max-width: auto;
     display: inherit;
     margin: auto;
-    margin-top: 500px;
+    margin-top: 300px;
     padding: 10px;
     overflow-x: hidden;
     box-shadow: 2px, 2px, 30px;
     background-color: #fff;
     border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Box-header {
+    position: fixed;
+    top: 2%; left: 20%; right: 20%;
+    line-height: 60px;
+    display: inline-block;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+    /*всё, что связано с шрифтами*/
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  body {
+    margin-top: 150px;
+  }
+}
+
+.instrument {
+  display: none;
+  position: relative;
 }
 
 .content-blog {
-    background-color: #eeeeee;
-    margin: auto;
-    max-width: 1200px;
-    text-align: center;
-    box-shadow: 1px 1px 8px;
-    border-radius: 10px;
+  background-color: #eeeeee;
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  box-shadow: 1px 1px 8px;
+  border-radius: 10px;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 .titlehead {
-    position: sticky;
-    text-align: center;
-    display: inline-block;
-    margin: 0;
+  position: sticky;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
 }
 
 .button {
-    background: #fff;
-    border-color: #000;
-    border-width: 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    cursor: pointer;
+  background: #fff;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
