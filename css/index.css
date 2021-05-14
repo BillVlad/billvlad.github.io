@@ -15,6 +15,33 @@ html {
     display: inline-block;
     background-color: #eeeeee;
     box-shadow: 1px 1px 10px;
+    /*всё, что связано с шрифтами*/
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #222222;
+  }
+  body {
+    max-width: auto;
+    display: inherit;
+    margin: auto;
+    margin-top: 400px;
+    padding: 10px;
+    overflow-x: hidden;
+    box-shadow: 2px, 2px, 30px;
+    background-color: #fff;
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .Box-header {
+    position: absolute;
+    top: 26%; left: 30%; right: 30%;
+    line-height: 50px;
+    display: inline-block;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 10px;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
@@ -31,7 +58,7 @@ html {
     overflow-x: hidden;
     box-shadow: 2px, 2px, 30px;
     background-color: #fff;
-    border-radius: 10px;
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
 }
 
@@ -44,6 +71,7 @@ html {
     background-color: #eeeeee;
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
+    border-top-radius: 10px
     /*всё, что связано с шрифтами*/
     font-size: 20px;
     font-family: 'Lato', sans-serif;

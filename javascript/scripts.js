@@ -1,5 +1,12 @@
 var key = document.createElement('key');
 var con = document.getElementById('con');
+var mobilescreen = window.screen.width <= 600;
+var desktopscreen = window.screen.width >= 600;
+var dlp = document.createElement('input');
+var delp = dlp.setAttribute('type', 'checkbox');
+
+delp.style.color = 'black';
+document.body.appendChild(delp);
 
 function keycheck() {
     if(desktopscreen){
@@ -11,7 +18,7 @@ function keycheck() {
 };
 
 function keystop() {
-    key.innerHTML = "";
+    key.remove(key);
 };
 
 function showHide(instrument) {
