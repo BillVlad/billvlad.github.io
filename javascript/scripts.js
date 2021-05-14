@@ -1,7 +1,5 @@
 var key = document.createElement('key');
 var con = document.getElementById('con');
-var mobilescreen = window.screen.width <= 600;
-var desktopscreen = window.screen.width >= 600;
 
 function keycheck() {
     if(desktopscreen){
