@@ -95,6 +95,7 @@ html {
   text-align: center;
   box-shadow: 1px 1px 8px;
   border-radius: 10px;
+  content-visibility: auto;
 }
 
 a {
