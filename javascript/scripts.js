@@ -20,12 +20,3 @@ function keycheck() {
 function keystop() {
     key.remove(key);
 };
-
-function showHide(instrument) {
-  if (document.getElementById(instrument)) {
-    var obj = document.getElementById(instrument);
-    if (obj.style.display != "block") {
-      obj.style.display = "block";
-    } else obj.style.display = "none";
-  }
-}
