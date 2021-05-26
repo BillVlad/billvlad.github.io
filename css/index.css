@@ -3,8 +3,8 @@
   box-sizing: border-box;
 }
 html {
-  /*background: linear-gradient(blue, yellow);*/
-  background: url('/media/material.jpg');
+  background: linear-gradient(to right, #190998 50%, #a8b605 50%);
+  /* background: url('/media/material.jpg'); */
   background-size: cover;
 }
 
@@ -14,14 +14,13 @@ html {
     top: 20%; left: 30%; right: 30%;
     line-height: 100px;
     display: inline-block;
-    background-color: #eeeeee;
-    box-shadow: 1px 1px 10px;
+    background-color: #000000;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: #222222;
+    color: #ffffff;
   }
   body {
     max-width: auto;
@@ -29,9 +28,8 @@ html {
     margin: auto;
     margin-top: 400px;
     padding: 10px;
-    overflow-x: hidden;
     box-shadow: 2px, 2px, 30px;
-    background-color: #fff;
+    background-color: #000;
     border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
 }
@@ -42,14 +40,13 @@ html {
     top: 26%; left: 30%; right: 30%;
     line-height: 50px;
     display: inline-block;
-    background-color: #eeeeee;
-    box-shadow: 1px 1px 10px;
+    background-color: #000;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: #222222;
+    color: #fff;
   }
   body {
     max-width: auto;
@@ -57,9 +54,7 @@ html {
     margin: auto;
     margin-top: 400px;
     padding: 10px;
-    overflow-x: hidden;
-    box-shadow: 2px, 2px, 30px;
-    background-color: #fff;
+    background-color: #000;
     border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
 }
@@ -70,7 +65,7 @@ html {
     top: 2%; left: 20%; right: 20%;
     line-height: 60px;
     display: inline-block;
-    background-color: #eeeeee;
+    background-color: #000;
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
     border-top-radius: 10px
@@ -80,7 +75,14 @@ html {
     text-align: center;
   }
   body {
-    margin-top: 150px;
+    max-width: auto;
+    display: inherit;
+    margin: auto;
+    margin-top: 20vw;
+    padding: 10px;
+    background-color: #000;
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
+    background-color: #000;
   }
 }
 
@@ -90,17 +92,21 @@ html {
 }
 
 .content-blog {
-  background-color: #eeeeee;
+  background-color: #393939;
   margin: auto;
   max-width: 1200px;
   text-align: center;
-  box-shadow: 1px 1px 8px;
   border-radius: 10px;
+  color: #eeeaea;
   content-visibility: auto;
 }
 
-a {
-  color: black;
+.box-header a {
+  color: white;
+}
+
+.content-blog a {
+  color: #dbdbdb;
 }
 
 .titlehead {
