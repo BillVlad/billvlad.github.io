@@ -11,7 +11,7 @@ document.body.appendChild(delp);
 function keycheck() {
     if(desktopscreen){
         key.innerHTML = "<object width=1200 height=420 data='html/tester.html'></object>";
-        document.getElementById('instrument').appendChild(key);
+        document.querySelector('.pr').appendChild(key);
     } else{
         alert("На телефоне открыть тестер клавиатуры нельзя!")
     }
