@@ -1,0 +1,24 @@
+body{
+  background: url('back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000; }
+#text {
+  background: #bbbbbb;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 2px 2px 10px black; }
+button {
+  position:relative;
+  border-radius: 10px;
+  border-color: #000;
+  margin: 5px; }
+#removeText { background-color: rgb(69, 138, 255); color: white; }
+#addText { background-color: yellow; }
+#removeText { border-radius: 0px; }
+.butt {
+  background-color: #bbbbbb;
+  display: block;
+  position: absolute;
+  border-radius: 20px;
+  max-width: 145px; }

@@ -1,0 +1,27 @@
+<html lang=ru>
+<head>
+  <link href="src.css" rel='stylesheet'>
+  <title>Hello World</title>
+</head>
+<body>
+  <div class='butt'>
+    <button type="button" id="removeText" onclick="removeText()">REMOVE</button>
+    <button type="button" id="addText" onclick="addText()">ADD</button>
+  </div>
+  <div align=center id='text'>
+    <h1 align=center>Hello world</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum culpa mollitia quia beatae nihil commodi, reprehenderit natus dicta voluptatibus perspiciatis. Eum molestiae earum, libero consequuntur dolorem, sed exercitationem quae vel?</p>
+    <p>Asperiores recusandae minima libero reiciendis quis soluta nostrum facere sequi nobis molestiae? Sint nostrum at, accusantium blanditiis est architecto tenetur corrupti pariatur ipsa quibusdam suscipit molestiae maxime repellat tempora! Aperiam.</p>
+    <p>Ea commodi itaque, harum sunt possimus assumenda ab impedit. Nesciunt rerum nemo, ducimus iusto autem ratione dolore animi? Placeat eaque, officia tempora explicabo dicta rem, maxime voluptatum quod aperiam amet!</p>
+    <p>Dolore eligendi, veniam rerum perspiciatis consequatur nemo temporibus nobis autem quaerat voluptatibus iusto natus veritatis. Sed nisi voluptates inventore nemo at, praesentium dolor libero corporis similique iste, tenetur commodi, quod!</p>
+    <p>Molestiae amet aperiam vitae provident. Facilis eveniet, quisquam eos cum dolor quibusdam odit nemo mollitia non maiores, esse eum expedita, soluta porro ea. Molestias ipsum ratione perferendis minus, tenetur iusto.</p>
+    <p>Nam facere quae, placeat culpa totam eaque magnam inventore nostrum, eveniet omnis recusandae at rem consequuntur, molestiae expedita! Harum, eaque hic error! Explicabo inventore ipsum, sunt nostrum blanditiis quo ipsa.</p>
+  </div>
+  <script type="text/javascript">
+    let browsr = new Audio('Browser History - Graham Kartna.mp3');
+
+    function removeText() { document.getElementById('text').style.display = 'none'; browsr.play(); browsr.volume = 0.11; }
+    function addText() { document.getElementById('text').style.display = 'block'; browsr.pause(); }
+  </script>
+</body>
+</html>
