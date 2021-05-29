@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 html {
-  background: linear-gradient(to right, #190998 50%, #a8b605 50%);
+  background: linear-gradient(to right, #f0f0f0 50%, #d32d17 50%);
   /* background: url('/media/material.jpg'); */
   background-size: cover;
 }
