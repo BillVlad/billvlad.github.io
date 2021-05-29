@@ -65,8 +65,8 @@ html {
 
 @media screen and (max-width: 600px) {
   .🎅 {
-    position: fixed;
-    top: 2%; left: 20%; right: 20%;
+    position: absolute;
+    top: 15px; left: 20%; right: 20%;
     line-height: 60px;
     display: inline-block;
     background-color: #000;
@@ -74,7 +74,7 @@ html {
     border-radius: 10px;
     border-top-radius: 10px;
     /*всё, что связано с шрифтами*/
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
     text-align: center;
   }
@@ -127,4 +127,8 @@ html {
   border-radius: 5px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.clocker {
+  transform: scale(2);
 }
