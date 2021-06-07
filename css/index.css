@@ -7,8 +7,9 @@
   box-sizing: border-box;
 }
 html {
-  background: linear-gradient(to right, #f0f0f0 50%, #d32d17 50%);
-  background-size: cover;
+  background: url('/media/tenor.gif');
+  /* background: linear-gradient(to right, #f0f0f0 50%, #d32d17 50%); */
+  /* background-size: cover; */
 }
 
 @media screen and (min-width: 1200px) and (orientation: landscape) {
@@ -130,4 +131,10 @@ html {
 
 .clocker {
   transform: scale(2);
+}
+
+video {
+  display: block;
+  margin: auto;
+  margin-bottom: 9px;
 }

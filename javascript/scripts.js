@@ -15,3 +15,11 @@ function keycheck() {
 function keystop() {
     key.remove(key);
 };
+
+function openKaif(params) {
+    let bio = document.querySelector('#bio');
+    let kaif = document.createElement('video');
+    kaif.src = 'https://cdn.discordapp.com/attachments/505783416734744579/851153172651442236/Cat_dance_Lady_Hear_Me_Tonight-k8x3ppanVwo.webm';
+    kaif.autoplay = 'true';
+    bio.append(kaif);
+}
