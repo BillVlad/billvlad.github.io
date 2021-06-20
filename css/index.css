@@ -15,7 +15,7 @@ html {
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .🎅 {
     position: absolute;
-    top: 20%; left: 30%; right: 30%;
+    top: 10%; left: 29%; right: 29%;
     line-height: 100px;
     display: inline-block;
     background-color: #000000;
@@ -30,7 +30,7 @@ html {
     max-width: auto;
     display: inherit;
     margin: auto;
-    margin-top: 400px;
+    margin-top: 249px;
     padding: 10px;
     box-shadow: 2px, 2px, 30px;
     background-color: #000;
