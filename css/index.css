@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root {
-  --text-color: #eeeaea;
+  --text-color: #f8f9fa;
 }
 
 * {
@@ -8,7 +8,7 @@
 }
 html {
   /* background: url('/media/tenor.gif'); */
-  background: linear-gradient(to right, #f0f0f0 50%, #d32d17 50%);
+  background: linear-gradient(to right, #dee2e6 50%, #e03131 50%);
   /* background-size: cover; */
 }
 
@@ -18,7 +18,7 @@ html {
     top: 10%; left: 29%; right: 29%;
     line-height: 100px;
     display: inline-block;
-    background-color: #000000;
+    background-color: #212529;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
@@ -33,7 +33,7 @@ html {
     margin-top: 249px;
     padding: 10px;
     box-shadow: 2px, 2px, 30px;
-    background-color: #000;
+    background-color: #212529;
     border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
 }
@@ -44,7 +44,7 @@ html {
     top: 26%; left: 30%; right: 30%;
     line-height: 50px;
     display: inline-block;
-    background-color: #000;
+    background-color: #212529;
     border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
@@ -69,7 +69,7 @@ html {
     top: 15px; left: 20%; right: 20%;
     line-height: 60px;
     display: inline-block;
-    background-color: #000;
+    background-color: #212529;
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
     border-top-radius: 10px;
@@ -84,9 +84,8 @@ html {
     margin: auto;
     margin-top: 20vw;
     padding: 10px;
-    background-color: #000;
+    background-color: #212529;
     border-top-left-radius: 10px; border-top-right-radius: 10px;
-    background-color: #000;
   }
 }
 
@@ -96,13 +95,12 @@ html {
 }
 
 .content-blog {
-  background-color: #393939;
+  background-color: #495057;
   margin: auto;
   max-width: 1200px;
   text-align: center;
   border-radius: 10px;
   color: var(--text-color);
-  content-visibility: auto;
 }
 
 .🎅 a {
