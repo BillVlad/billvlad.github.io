@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root {
-  --text-color: #f8f9fa;
+  --text-color: #ffffff;
 }
 
 * {
@@ -8,7 +8,7 @@
 }
 html {
   /* background: url('/media/tenor.gif'); */
-  background: linear-gradient(to right, #dee2e6 50%, #e03131 50%);
+  background: linear-gradient(to right, #0400e6 50%, hsl(59, 100%, 59%) 50%);
   /* background-size: cover; */
 }
 
@@ -24,7 +24,6 @@ html {
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: var(--text-color);
   }
   body {
     max-width: auto;
@@ -96,11 +95,11 @@ html {
 
 .content-blog {
   background-color: #495057;
+  color: var(--text-color);
   margin: auto;
   max-width: 1200px;
   text-align: center;
   border-radius: 10px;
-  color: var(--text-color);
 }
 
 .🎅 a {
@@ -136,3 +135,13 @@ video {
   margin: auto;
   margin-bottom: 9px;
 }
+
+/* .pr, .contact, #bio, #clckview {
+  border: #000 solid;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  background-color: hsl(0, 0%, 95%);
+  color: #000;
+  margin-bottom: 5px;
+} */
