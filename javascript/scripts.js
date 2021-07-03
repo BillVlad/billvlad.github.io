@@ -25,9 +25,9 @@ function openKaif(params) {
 }
 
 function isChromium() {
-    if (navigator.userAgentData.brands[1] = {"brand": "Microsoft Edge"}) {
+    if (navigator.userAgentData.brands[1] = { "brand": "Microsoft Edge" }) {
         console.log(`it's Edge`);
     } else {
-    console.log(`it's not Edge`);
+        console.log(`it's not Edge`);
     }
 }
