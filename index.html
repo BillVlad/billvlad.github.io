@@ -15,7 +15,7 @@
         <p class='titlehead'><a style='text-decoration: none; cursor: default;' href='html\shet\wtf.html'>Cтраница
                 Владислава Шевченко</a></p>
     </div>
-    <div class="content-blog" id='con'>
+    <div class="content-blog">
         <div id="clckview">
             <h3>Текущее время:</h3>
             <object class="clocker" width="145px" height="90px" data='html/clock.html'></object>
@@ -25,7 +25,7 @@
             <p>
                 Меня зовут Владислав Шевченко, родом я из <ДАННЫЕ УДАЛЕНЫ></br>
                     Год рождения - <time>01.02.2005</time></br>
-                    Учу языки программирования: Python, <a href='#' onclick="openKaif()">javascript</a>.
+                    Учу языки программирования: Python, <a id="kaif" href='#'>javascript</a>.
                     Также изучаю HTML, CSS.</br>
                     Есть <a href="https://github.com/BillVlad">Github</a> аккаунт, где я и храню этот сайт </br>
                     Любимые жанры музыки: рок, метал, поп...</br>
@@ -54,8 +54,8 @@
             <h4><a href=html/pr4/index.html>4 практическая работа</a> </h4>
             <details>
                 <summary>Keyboard Tester</summary>
-                <button class="button" type="button" onclick="keycheck()">Test</button>
-                <input class="button" type="reset" onclick="keystop()">
+                <button class="button check">Test</button>
+                <input class="button rst" type="reset">
             </details>
         </div>
         <script src=javascript/scripts.js> </script>
