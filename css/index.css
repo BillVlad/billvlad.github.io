@@ -6,13 +6,14 @@
 
 .🎅 {
   color: white;
+  font-weight: bold;
   background-color: #212529;
 }
 
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .🎅 {
     position: absolute;
-    top: 10%; left: 29%; right: 29%;
+    top: 1%; left: 29%; right: 29%;
     line-height: 100px;
     display: inline-block;
     border-radius: 10px;
@@ -25,7 +26,7 @@
     max-width: auto;
     display: inherit;
     margin: auto;
-    margin-top: 249px;
+    margin-top: 200px;
     padding: 10px;
     box-shadow: 2px, 2px, 30px;
     background-color: #212529;
@@ -62,7 +63,6 @@
     line-height: 60px;
     display: inline-block;
     background-color: #212529;
-    box-shadow: 1px 1px 10px;
     border-radius: 10px;
     border-top-radius: 10px;
     /*всё, что связано с шрифтами*/
@@ -85,13 +85,17 @@
       --text-color: black;
   }
   html {
-    background: linear-gradient(to right, #dbdbdb 50%, #ff4d4d 50%);
+    background: linear-gradient(to right, #ebebeb 50%, #ff6e6e 50%);
+    background-repeat: no-repeat;
   }
   body {
       background: #e7e7e7;
   }
   .content-blog {
       background: #fafafa;
+  }
+  #pash {
+    color: #580a0a;
   }
 }
 
@@ -107,6 +111,9 @@
   }
   .content-blog {
     background-color: #495057;
+  }
+  #pash {
+    color: #d8d8d8;
   }
 }
 
