@@ -21,28 +21,6 @@ document.querySelector('#kaif').addEventListener('click', () => {
 });
 
 let clickMe = 0;
-// document.querySelector('#pash').addEventListener('click', function () {
-//     clickMe += 1;
-//     console.log(clickMe);
-//     if (clickMe == 2) {
-//         this.innerHTML = 'What is love';
-//     };
-//     if (clickMe == 5) {
-//         this.innerHTML = 'Лол, продолжай дальше';
-//     };
-//     if (clickMe == 9) {
-//         this.innerHTML = 'ТЫ ПОЧТИ ДОБРАЛСЯ!';
-//     };
-//     if (clickMe == 10) {
-//         let htm = document.querySelector('html');
-//         let bdy = document.querySelector('body');
-//         htm.style.backgroundImage = "url('/media/drawing.svg')";
-//         bdy.style.marginTop = '780px';
-//     };
-//     if (clickMe == 15) {
-//         document.location.href = 'https://youtu.be/EQsKufhKvqo';
-//     };
-// })
 
 document.querySelector('#pash').addEventListener('click', function () {
     clickMe += 1;
