@@ -39,8 +39,17 @@ document.querySelector('#pash').addEventListener('click', function () {
             let htm = document.querySelector('html');
             let bdy = document.querySelector('body');
             htm.style.backgroundImage = "url('/media/drawing.svg')";
-            bdy.style.marginTop = '780px';
-            document.querySelector('.🎅').innerHTML = '<b>Ты добрался до ENA, поздр</b>';
+            // Здесь мы проверяем ширину экрана нашего устройства.
+            // На ПК должно выглядеть нормально, а на мобилках нужно специфичные параметры выставить.
+            if (window.screen.width >= 600) {
+                bdy.style.marginTop = '780px';
+            } else {
+                // Здесь высоту body делаем чуть меньше.
+                bdy.style.marginTop = '220px';
+                // Задаём стили для svg картинки.
+                htm.style.backgroundSize = "600px, auto";
+            }
+            document.querySelector('.🎅').textContent = 'Ты добрался до ENA, поздр';
             this.innerHTML = '<b>"Продолжай, если ты упёртый"</b>';
             break;
         case 15:

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <title>clock</title>
     <script>
@@ -9,27 +10,31 @@
             let minutes = bruh.getMinutes();
             let second = bruh.getSeconds();
             // добавляем нули //
-                if (hours < 10) hours = "0" + hours;
-                if (minutes < 10) minutes = "0" + minutes;
-                if (second < 10) second = "0" + second;
+            if (hours < 10) hours = "0" + hours;
+            if (minutes < 10) minutes = "0" + minutes;
+            if (second < 10) second = "0" + second;
             document.getElementById('bruhich').innerHTML = hours + ":" + minutes + ":" + second;
             setTimeout("Dates()", 1000);
         }
     </script>
     <style>
         #bruhich {
-            background: linear-gradient(to right, #ffffff 50%,  #ffffff 50%);
+            background: linear-gradient(to right, #e5ff00, #00ff9d);
             display: block;
-            max-width: 150px;
+            margin: auto;
+            max-width: 250px;
             text-align: center;
+            font-size: 60px;
             border-radius: 10px;
             border-color: black;
             border-style: solid;
         }
     </style>
 </head>
+
 <body>
     <h1 id="bruhich"></h1>
     <script>Dates();</script>
 </body>
+
 </html>
