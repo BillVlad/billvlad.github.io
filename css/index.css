@@ -16,7 +16,6 @@
     top: 1%; left: 29%; right: 29%;
     line-height: 100px;
     display: inline-block;
-    border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
     font-family: 'Lato', sans-serif;
@@ -28,9 +27,7 @@
     margin: auto;
     margin-top: 200px;
     padding: 10px;
-    box-shadow: 2px, 2px, 30px;
     background-color: #212529;
-    border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
 }
 
@@ -40,7 +37,6 @@
     top: 26%; left: 30%; right: 30%;
     line-height: 50px;
     display: inline-block;
-    border-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
     font-family: 'Lato', sans-serif;
@@ -52,7 +48,6 @@
     margin: auto;
     margin-top: 400px;
     padding: 10px;
-    border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
 }
 
@@ -63,8 +58,6 @@
     line-height: 60px;
     display: inline-block;
     background-color: #212529;
-    border-radius: 10px;
-    border-top-radius: 10px;
     /*всё, что связано с шрифтами*/
     font-size: 17px;
     font-family: 'Lato', sans-serif;
@@ -76,7 +69,6 @@
     margin: auto;
     margin-top: 20vw;
     padding: 10px;
-    border-top-left-radius: 10px; border-top-right-radius: 10px;
   }
   html {
     background-attachment: initial;
@@ -98,7 +90,7 @@
       background: #fafafa;
   }
   #pash {
-    color: #580a0a;
+    color: #770d0d;
   }
 }
 
@@ -110,13 +102,13 @@
     background: linear-gradient(to right, #0400e6 50%, hsl(59, 100%, 59%) 50%);
   }
   body {
-      background: black;
+      background: #222222;
   }
   .content-blog {
     background-color: #495057;
   }
   #pash {
-    color: #d8d8d8;
+    color: #dda4a4;
   }
 }
 
@@ -130,7 +122,6 @@
   margin: auto;
   max-width: 1200px;
   text-align: center;
-  border-radius: 10px;
 }
 
 .🎅 a {

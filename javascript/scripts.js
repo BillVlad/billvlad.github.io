@@ -26,6 +26,9 @@ document.querySelector('#pash').addEventListener('click', function () {
     clickMe += 1;
     console.log(clickMe);
     switch (clickMe) {
+        case 1:
+            alert('тыкай дальше');
+            break;
         case 2:
             this.innerHTML = '<b>"WHAT IS LOVE"</b>';
             break;
