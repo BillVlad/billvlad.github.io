@@ -8,7 +8,7 @@
 <body>
   <div class="back">
     <div class='butt'>
-      <input type="button" value="Вернуться на главную страницу">
+      <input type="button" value="Вернуться на главную страницу" onclick="returnToHome()">
       <button type="button" id="removeText" onclick="removeText()">REMOVE</button>
       <button type="button" id="addText" onclick="addText()">ADD</button>
     </div>
@@ -88,6 +88,10 @@
       document.getElementById('text').style.display = 'block';
       browsr.pause();
     }
+    function returnToHome() {
+      window.location.href = '../../index.html';
+    }
+
   </script>
 </body>
 

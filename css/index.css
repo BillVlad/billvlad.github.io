@@ -140,7 +140,6 @@
 }
 
 .button {
-  background: var(--text-color);
   border-color: #000;
   border-width: 2px;
   border-radius: 5px;

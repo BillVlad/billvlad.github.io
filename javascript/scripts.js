@@ -24,7 +24,6 @@ let clickMe = 0;
 
 document.querySelector('#pash').addEventListener('click', function () {
     clickMe += 1;
-    console.log(clickMe);
     switch (clickMe) {
         case 1:
             alert('тыкай дальше');
