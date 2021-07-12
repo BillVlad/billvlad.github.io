@@ -59,3 +59,11 @@ document.querySelector('#pash').addEventListener('click', function () {
             break;
     }
 })
+
+function openRequestedPopup() {
+    windowObjectReference = window.open(
+        "../html/pr5.html",
+        "DescriptiveWindowName",
+        "resizable,scrollbars,status"
+    );
+}
