@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-.🎅 {
+/* Header */
+
+#box-header{
   color: white;
   font-weight: bold;
   background-color: #212529;
 }
 
+/* Media Request for adaptive style */
+
+/* Desktop */
 @media screen and (min-width: 1200px) and (orientation: landscape) {
-  .🎅 {
+  #box-header {
     position: absolute;
     top: 1%; left: 29%; right: 29%;
     line-height: 100px;
@@ -31,8 +36,9 @@
   }
 }
 
+/* Tablet? */
 @media screen and (min-width: 600px) and (max-width: 1200px) {
-  .🎅 {
+  #box-header {
     position: absolute;
     top: 26%; left: 30%; right: 30%;
     line-height: 50px;
@@ -51,8 +57,9 @@
   }
 }
 
+/* Mobile */
 @media screen and (max-width: 600px) {
-  .🎅 {
+  #box-header {
     position: absolute;
     top: 15px; left: 20%; right: 20%;
     line-height: 60px;
@@ -70,14 +77,14 @@
     margin-top: 20vw;
     padding: 10px;
   }
-  html {
-    background-attachment: initial;
-  }
 }
 
+/* Media request for light/dark theme */
+
+/* Light */
 @media (prefers-color-scheme: light) {
   :root {
-      --text-color: black;
+      --text-color: #000;
   }
   html {
     background: linear-gradient(to right, #ebebeb 50%, #ff6e6e 50%);
@@ -90,16 +97,31 @@
       background: #fafafa;
   }
   #pash {
-    color: #770d0d;
+    color: #000;
+  }
+  #pash:hover {
+    color: #573aff;
+    transition: color .2s linear;
+  }
+  #box-header {
+    background-color: #c2c2c2;
+  }
+  a {
+    color: var(--text-color);
+  }
+  a:hover {
+    color:#cc0000;
+    transition: color .2s linear;
   }
 }
 
+/* Dark */
 @media (prefers-color-scheme: dark) {
   :root {
       --text-color: white;
   }
   html {
-    background: linear-gradient(to right, #0400e6 50%, hsl(59, 100%, 59%) 50%);
+    background: linear-gradient(to right, #0400e6 50%, #fffc2e 50%);
   }
   body {
       background: #222222;
@@ -107,29 +129,29 @@
   .content-blog {
     background-color: #495057;
   }
+  a {
+    color: var(--text-color)
+  }
+  a:hover {
+    color: #e9ec27;
+    transition: color .2s linear;
+  }
   #pash {
-    color: #dda4a4;
+    color: #fff;
+  }
+  #pash:hover {
+    color: #00a2ff;
+    transition: color .2s linear;
   }
 }
 
-.instrument {
-  display: none;
-  position: relative;
-}
+/* Other things */
 
 .content-blog {
   color: var(--text-color);
   margin: auto;
   max-width: 1200px;
   text-align: center;
-}
-
-.🎅 a {
-  color: white;
-}
-
-.content-blog a {
-  color: var(--text-color);
 }
 
 .titlehead {
@@ -145,14 +167,4 @@
   border-radius: 5px;
   margin-bottom: 20px;
   cursor: pointer;
-}
-
-.clocker {
-  transform: scale(2);
-}
-
-video {
-  display: block;
-  margin: auto;
-  margin-bottom: 9px;
 }

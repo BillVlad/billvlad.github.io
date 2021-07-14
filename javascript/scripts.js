@@ -20,46 +20,51 @@ document.querySelector('#kaif').addEventListener('click', () => {
     bio.replaceWith(kaif);
 });
 
-let clickMe = 0;
+function csMe() {
+    let clickMe = 0;
+    document.querySelector('#pash').addEventListener('click', function () {
+        clickMe += 1;
+        switch (clickMe) {
+            case 1:
+                this.innerHTML = 'тыкай дальше';
+                break;
+            case 2:
+                this.innerHTML = '<b>"WHAT IS LOVE"</b>';
+                break;
+            case 4:
+                this.innerHTML = '<b>"Хорошо, продолжай"</b>';
+                break;
+            case 9:
+                this.innerHTML = '<b>"ТЫ ПОЧТИ ДОБРАЛСЯ!"</b>';
+                break;
+            case 10:
+                let htm = document.querySelector('html');
+                let bdy = document.querySelector('body');
+                htm.style.backgroundImage = "url('/media/drawing.svg')";
+                // Здесь мы проверяем ширину экрана нашего устройства.
+                // На ПК должно выглядеть нормально, а на мобилках нужно специфичные параметры выставить.
+                if (window.screen.width >= 600) {
+                    bdy.style.marginTop = '700px';
+                    htm.style.backgroundSize = "100%, auto";
+                } else {
+                    // Здесь высоту body делаем чуть меньше.
+                    bdy.style.marginTop = '10vw';
+                    // Задаём стили для svg картинки.
+                    htm.style.backgroundSize = "600px, auto";
+                }
+                document.querySelector('header').textContent = 'Ты добрался до ENA, поздр';
+                this.innerHTML = '<b>"Продолжай, если ты упёртый"</b>';
+                break;
+            case 15:
+                document.location.href = 'https://youtu.be/EQsKufhKvqo';
+                break;
+        }
+    })
+}
 
-document.querySelector('#pash').addEventListener('click', function () {
-    clickMe += 1;
-    switch (clickMe) {
-        case 1:
-            alert('тыкай дальше');
-            break;
-        case 2:
-            this.innerHTML = '<b>"WHAT IS LOVE"</b>';
-            break;
-        case 4:
-            this.innerHTML = '<b>"Хорошо, продолжай"</b>';
-            break;
-        case 9:
-            this.innerHTML = '<b>"ТЫ ПОЧТИ ДОБРАЛСЯ!"</b>';
-            break;
-        case 10:
-            let htm = document.querySelector('html');
-            let bdy = document.querySelector('body');
-            htm.style.backgroundImage = "url('/media/drawing.svg')";
-            // Здесь мы проверяем ширину экрана нашего устройства.
-            // На ПК должно выглядеть нормально, а на мобилках нужно специфичные параметры выставить.
-            if (window.screen.width >= 600) {
-                bdy.style.marginTop = '780px';
-            } else {
-                // Здесь высоту body делаем чуть меньше.
-                bdy.style.marginTop = '220px';
-                // Задаём стили для svg картинки.
-                htm.style.backgroundSize = "600px, auto";
-            }
-            document.querySelector('.🎅').textContent = 'Ты добрался до ENA, поздр';
-            this.innerHTML = '<b>"Продолжай, если ты упёртый"</b>';
-            break;
-        case 15:
-            document.location.href = 'https://youtu.be/EQsKufhKvqo';
-            break;
-    }
-})
+csMe();
 
+// Функция для вызова окна с страницей HTML.
 function openRequestedPopup() {
     windowObjectReference = window.open(
         "../html/pr5.html",
