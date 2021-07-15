@@ -40,23 +40,26 @@ function csMe() {
             case 10:
                 let htm = document.querySelector('html');
                 let bdy = document.querySelector('body');
-                htm.style.backgroundImage = "url('/media/drawing.svg')";
+                htm.style.backgroundImage = "url('/media/drawing_gimp.jpg')";
                 // Здесь мы проверяем ширину экрана нашего устройства.
                 // На ПК должно выглядеть нормально, а на мобилках нужно специфичные параметры выставить.
-                if (window.screen.width >= 600) {
+                if (window.screen.width >= 1200) {
                     bdy.style.marginTop = '700px';
                     htm.style.backgroundSize = "100%, auto";
+                } else if (window.screen.width >= 1000) {
+                    bdy.style.marginTop = '350px';
+                    htm.style.backgroundSize = '100%, auto';
                 } else {
                     // Здесь высоту body делаем чуть меньше.
-                    bdy.style.marginTop = '10vw';
+                    bdy.style.marginTop = '50vw';
                     // Задаём стили для svg картинки.
                     htm.style.backgroundSize = "600px, auto";
                 }
-                document.querySelector('header').textContent = 'Ты добрался до ENA, поздр';
+                document.querySelector('#box-header').textContent = 'Ты добрался до ENA, поздр';
                 this.innerHTML = '<b>"Продолжай, если ты упёртый"</b>';
                 break;
             case 15:
-                document.location.href = 'https://youtu.be/EQsKufhKvqo';
+                document.location.href = 'https://www.youtube.com/watch?v=fWesKv25akY';
                 break;
         }
     })
