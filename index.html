@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="black">
+    <!-- <meta name="theme-color" content="#00AAfA"> -->
     <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
     <title>Личная страница Владислава Шевченко</title>
     <link href=css/index.css rel=stylesheet>
 </head>
+
+<div id="loading">
+    <img id="loading-image" src="./media/Hourglassdog3.gif" alt="Loading..." />
+</div>
 
 <body>
     <div id="box-header" class="🎅">
@@ -17,7 +21,7 @@
     </div>
     <div class="content-blog">
         <div id=bio>
-            <h1>Обо мне:</h1>
+            <h1>Обо мне</h1>
             <p>
                 Меня зовут
                 <span id='pash'>Владислав</span> Шевченко, родом я из <ДАННЫЕ УДАЛЕНЫ></br>
@@ -29,18 +33,18 @@
             </p>
         </div>
         <div class='contact'>
-            <h1>Контакты:</h1>
-            <p id="contact">
-                Discord: Bellyash#4499</br>
-                Telegram: <a href="https://t.me/billvlad5">@billvlad5</a></br>
-                Twitter: <a href="https://twitter.com/billvlad5">@billvlad5</a></br>
-                E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></br>
-                Soundcloud: <a href="https://soundcloud.com/billvlad">billvlad</a>
-            </p>
+            <h1>Контакты</h1>
+            <ul id="contact">
+                <li>Discord: Bellyash#4499</li>
+                <li>Telegram: <a href="https://t.me/billvlad5">@billvlad5</a></li>
+                <li>Twitter: <a href="https://twitter.com/billvlad5">@billvlad5</a></li>
+                <li>E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></li>
+                <li>Soundcloud: <a href="https://soundcloud.com/billvlad">billvlad</a></li>
+            </ul>
         </div>
         <div class="pr">
             <h3>HTML</h3>
-            <h4><a href="#" onclick="openRequestedPopup()">WPF SOSAT</a></h4>
+            <h4><a href="#" onclick="openRequestedPopup(`../html/pr5.html`)">WPF SOSAT</a></h4>
             <h4><a href=html/pr1.html>1 практическая работа</a> </h4>
             <h4><a href=html/pr2.html>2 практическая работа</a> </h4>
             <h4><a href=html/pr3.html>3 практическую работу</a> </h4>
@@ -54,5 +58,6 @@
         <script src=javascript/scripts.js> </script>
     </div>
 </body>
+
 
 </html>

@@ -59,7 +59,7 @@ function csMe() {
                 this.innerHTML = '<b>"Продолжай, если ты упёртый"</b>';
                 break;
             case 15:
-                document.location.href = 'https://www.youtube.com/watch?v=fWesKv25akY';
+                openRequestedPopup(`https://www.youtube.com/embed/fWesKv25akY?controls=0`)
                 break;
         }
     })
@@ -68,10 +68,14 @@ function csMe() {
 csMe();
 
 // Функция для вызова окна с страницей HTML.
-function openRequestedPopup() {
+function openRequestedPopup(url) {
     windowObjectReference = window.open(
-        "../html/pr5.html",
+        url,
         "DescriptiveWindowName",
         "resizable,scrollbars,status"
     );
+}
+
+window.onload = () => {
+    document.querySelector('#loading').style.display = "none";
 }
