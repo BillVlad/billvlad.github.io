@@ -76,6 +76,8 @@ function openRequestedPopup(url) {
     );
 }
 
-window.onload = () => {
-    document.querySelector('#loading').style.display = "none";
+function loadingPage() {
+    document.querySelector('.loading').classList.add('loading-hidden');
 }
+
+window.onload = setTimeout(loadingPage, 1400);
