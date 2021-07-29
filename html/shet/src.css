@@ -1,7 +1,16 @@
-.back {
+html {
   background-image: url('back.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#lorem {
+  color: black
+}
+
+#lorem:hover {
+  color:rgb(69, 138, 255);
+  transition: color .2s;
 }
 
 #text {
