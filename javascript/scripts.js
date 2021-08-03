@@ -26,35 +26,28 @@ function csMe() {
         clickMe += 1;
         switch (clickMe) {
             case 1:
+                console.log('Слушай')
                 this.innerHTML = 'тыкай дальше';
                 break;
             case 2:
+                console.log('А ловко ты это придумал')
                 this.innerHTML = '<b>"WHAT IS LOVE"</b>';
                 break;
             case 4:
+                console.log('я даже сначала не понял')
                 this.innerHTML = '<b>"Хорошо, продолжай"</b>';
                 break;
             case 9:
+                console.log('Молодец!')
                 this.innerHTML = '<b>"ТЫ ПОЧТИ ДОБРАЛСЯ!"</b>';
                 break;
             case 10:
                 let htm = document.querySelector('html');
                 let bdy = document.querySelector('body');
-                htm.style.backgroundImage = "url('/media/drawing_gimp.jpg')";
                 // Здесь мы проверяем ширину экрана нашего устройства.
                 // На ПК должно выглядеть нормально, а на мобилках нужно специфичные параметры выставить.
-                if (window.screen.width >= 1200) {
-                    bdy.style.marginTop = '700px';
-                    htm.style.backgroundSize = "100%, auto";
-                } else if (window.screen.width >= 1000) {
-                    bdy.style.marginTop = '350px';
-                    htm.style.backgroundSize = '100%, auto';
-                } else {
-                    // Здесь высоту body делаем чуть меньше.
-                    bdy.style.marginTop = '50vw';
-                    // Задаём стили для svg картинки.
-                    htm.style.backgroundSize = "600px, auto";
-                }
+                htm.classList.add('HTMLEna');
+                bdy.classList.add('bodyEna');
                 document.querySelector('#box-header').textContent = 'Ты добрался до ENA, поздр';
                 this.innerHTML = '<b>"Продолжай, если ты упёртый"</b>';
                 break;
@@ -77,7 +70,9 @@ function openRequestedPopup(url) {
 }
 
 function loadingPage() {
+    console.log('Крадём ваши данные :DDD');
     document.querySelector('.loading').classList.add('loading-hidden');
+    console.log("Данные успешно спизжены!");
 }
 
 window.onload = setTimeout(loadingPage, 1400);
