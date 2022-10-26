@@ -1,68 +1,71 @@
 <html lang=ru>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="theme-color" content="#00AAfA"> -->
+        <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
+        <title>Личная страница Владислава Шевченко</title>
+        <link href=css/index.css rel=stylesheet>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="theme-color" content="#00AAfA"> -->
-    <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
-    <title>Личная страница Владислава Шевченко</title>
-    <link href=css/index.css rel=stylesheet>
-</head>
-
-<div class="loading">
-    <img class="loading-image" src="./media/Hourglassdog3.gif" alt="Loading..." />
-</div>
-
-<body>
-    <div id="box-header" class="🎅">
-        <p class='titlehead'><a style='text-decoration: none; cursor: default;' href='html\shet\wtf.html'>Cтраница
-                BillVLad'а</a></p>
-    </div>
-    <div class="content-blog">
-        <div id=bio>
-            <h1>Обо мне</h1>
-            <p>
-                Меня зовут
-                <span id='pash'>Владислав</span> Шевченко, родом я из Восточной Украины.</br>
-                Год рождения - <time>01.02.2005</time>.</br>
-                Учу языки программирования: Python, <a id="kaif" href='#'>javascript</a>.
-                Также изучаю HTML, CSS.</br>
-                Есть <a href="https://github.com/BillVlad">Github</a> аккаунт, где я и храню этот сайт.</br>
-                Нравится всякая дичь: ENA (<a href="https://www.youtube.com/user/Skulllink11">JoelG</a>), серия игр
-                Half-Life.<br>
-                Изучаю программы для анимации SFM... Список пока состоит только из одной программы, да...<br>
-            </p>
+    <body>
+        <div id="box-header">
+            <p class='titlehead'><a href='html\shet\wtf.html'>Cтраница BillVLad'а</a></p>
         </div>
-        <div class='contact'>
-            <h1>Контакты</h1>
-            <ul id="contact">
-                <li>Discord: Bellyash#4499</li>
-                <li>Telegram: <a href="https://t.me/billvlad5">@billvlad5</a></li>
-                <li>Twitter: <a href="https://twitter.com/billvlad5">@billvlad5</a></li>
-                <li>E-Mail: <a href=mailto:vladshevchenko29@gmail.com>vladshevchenko29@gmail.com</a></li>
-                <li>Soundcloud: <a href="https://soundcloud.com/billvlad">billvlad</a></li>
-                <li>TikTok: <a href="https://tiktok.com/@billvlad5">@billvlad5</a></li>
-            </ul>
-        </div>
-        <div class="pr">
-            <h3>HTML</h3>
-            <a href=html/pr1.html>1 практическая работа</a><br>
-            <a href=html/pr2.html>2 практическая работа</a><br>
-            <a href=html/pr3.html>3 практическую работу</a><br>
-            <a href=html/pr4/index.html>4 практическая работа</a><br>
-            <a href="#" onclick="openRequestedPopup(`../html/pr5.html`)">5 практическая работа</a><br>
-            <a href="html/pr6.html">6 практическая работа</a><br>
-            <a href="media/mods.zip">Моды для Minecraft 1.19 (Fabric)</a>
-            <details>
-                <summary>Keyboard Tester</summary>
-                <button class="button check">Test</button>
-                <input class="button rst" type="reset">
-            </details>
-        </div>
-        <script src=javascript/scripts.js> </script>
-    </div>
-</body>
 
-
+        <main>
+            <div class="content-blog">
+                <div id=bio>
+                    <h1>Обо мне</h1>
+                    <p>
+                        Меня зовут
+                        <span id='pash'>Владислав</span> Шевченко, родом я из Восточной Украины.</br>
+                        Год рождения - <time>01.02.2005</time>.</br>
+                        Учу языки программирования: Python, <a id="kaif" href='#'>javascript</a>.
+                        Также изучаю HTML, CSS.</br>
+                        Есть <a href="https://github.com/BillVlad">Github</a> аккаунт, где я и храню этот сайт.</br>
+                    </p>
+                </div>
+                <div class='contact'>
+                    <h1>Контакты</h1>
+                    <ul id="contact">
+                        <li>Discord: Bellyash#4499</li>
+                        <li>Telegram: <a href="https://t.me/billvlad5" target="_blank">@billvlad5</a></li>
+                        <li>Twitter: <a href="https://twitter.com/billvlad5" target="_blank">@billvlad5</a></li>
+                        <li>E-Mail: <a href=mailto:vladshevchenko29@gmail.com target="_blank">vladshevchenko29@gmail.com</a></li>
+                        <li>Soundcloud: <a href="https://soundcloud.com/billvlad" target="_blank">billvlad</a></li>
+                        <li>TikTok: <a href="https://tiktok.com/@billvlad5" target="_blank">@billvlad5</a></li>
+                    </ul>
+                </div>
+                <div class="pr">
+                    <h3>HTML</h3>
+                    <details class="work">
+                        <summary>1 курс</summary>
+                        <a href="html/1kurs/pr1.html">1 практическая работа</a> <br>
+                        <a href="html/1kurs/pr2.html">2 практическая работа</a> <br>
+                        <a href="html/1kurs/pr3.html">3 практическую работу</a> <br>
+                        <a href="html/1kurs/pr4/index.html">4 практическая работа</a> <br>
+                        <a href="#" onclick="openRequestedPopup(`../html/1kurs/pr5.html`)">5 практическая работа</a> <br>
+                        <a href="html/1kurs/pr6.html">6 практическая работа</a> <br>
+                    </details>
+                    <details class="work">
+                        <summary>3 курс</summary>
+                        <a href="html/3kurs/PracticeWork3/index.html">3 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork4/index.html">4 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork5/index.html">5 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork6/index.html">6 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork7/index.html">7 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork8/index.html">8 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork9/index.html">9 практическая работа</a> <br>
+                        <a href="html/3kurs/PracticeWork10/index.html">10 практическая работа</a> <br>
+                    </details>
+                    <details>
+                        <summary>Keyboard Tester</summary>
+                        <button class="button check">Test</button>
+                        <input class="button rst" type="reset">
+                    </details>
+                </div>
+        </main>
+        <script src=js/scripts.js> </script>
+    </body>
 </html>

@@ -1,0 +1,71 @@
+body {
+    padding: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-image: url("../img/Osenb.png");
+    
+}
+
+.block {
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #999999;
+}
+
+.block1 {
+    background-color:  #e74c3c;
+    background-image: url("../img/hugs.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+}
+
+.block2 {
+    background-color:  #2980b9;
+    background-image: url("../img/anekdot.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+}
+
+.block3 {
+    background-color: #e74c3c;
+    background-image: url("../img/saulGoodman.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: -45px 50%;
+
+}
+
+.block4 {
+    background-color: #e67e22;
+    background-image: url("../img/023.png");
+    background-size: 40%;
+    background-repeat: repeat;
+    background-position: 100% 50%;
+
+}
+
+.block_art {
+    width: 960px;
+    height: 540px;
+    background-image: url("../img/layers/busstop.jpg");
+}
+
+.block_pers {
+    background-image: url("../img/layers/South-Park-PNG-Clipart.png");
+    background-repeat: no-repeat;
+    background-size: 25em;
+    background-position: 12em 16.30em;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 20px;
+}

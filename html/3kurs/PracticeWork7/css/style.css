@@ -1,0 +1,25 @@
+p
+{
+	font-family: Impact, 'Arial Narrow Bold', sans-serif;
+	font-size: 100%;
+}
+
+h1
+{ 
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-style: italic;
+}
+
+h3 
+{ 
+	font-family: "Courier New", Courier, Monaco, monospace;
+	color: blue;
+}
+
+.copy 
+{ 
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: darkred;
+}

@@ -1,0 +1,22 @@
+body::after {
+    content: "Мяулодец!";
+    display: block;
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 95px;
+    color: white;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+    background: url("IMG//ket.jpg") no-repeat 0 100%;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: Monaco, Courier, monospace;
+    color: #618ad2;
+}
