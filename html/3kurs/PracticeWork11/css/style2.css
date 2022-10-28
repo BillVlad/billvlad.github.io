@@ -1,0 +1,15 @@
+* {
+    margin-top  : 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.picAnekdot { text-align: center }
+.picAnekdot img:hover { 
+    border: 5px solid #000000;
+    transition: border 0.3s ease;
+}
