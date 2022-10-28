@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik&display=swap');
 
 html {
-  background: url("/images/bg-page.jpg");
+  /* background: url("/images/bg-page.jpg"); */
+  background: url("/images/bg-page.png");
+  background-repeat: no-repeat;
   background-size: 100%;
+  background-position: 0px -5em;
 }
-
-body { background-color: #00000000; }
 
 /* Header */
 
@@ -31,7 +32,7 @@ body { background-color: #00000000; }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   #box-header {
     position: absolute;
-    top: 1%; left: 29%; right: 29%;
+    top: 10%; left: 29%; right: 29%;
     display: inline-block;
     /*всё, что связано с шрифтами*/
     font-size: 40px;
@@ -41,7 +42,6 @@ body { background-color: #00000000; }
     /* max-width: auto;
     display: inherit;
     margin: auto;
-    margin-top: 15em;
     padding: 10px; */
     min-height: 100%;
     height: auto !important;
@@ -96,17 +96,10 @@ body { background-color: #00000000; }
       --text-color: #000;
       --back-color: #f0f0f0;
   }
-  main {
-      background: #e7e7e7aa;
-  }
   .content-blog {
       background: #fafafa;
       box-shadow: #3e3e3e 0px 2px 35px;
-      border-radius: 10px;
       backdrop-filter: blur(5px);
-  }
-  main {
-    backdrop-filter: blur(5px);
   }
   #pash {
     color: #000;
@@ -135,10 +128,7 @@ body { background-color: #00000000; }
       --text-color: white;
       --back-color: #44444425;
   }
-  main {
-      background: #222222d2;
-      backdrop-filter: blur(5px);
-  }
+  html { background-color: #1d1d1dfb; }
   .content-blog {
     background-color: #383c3fd2;
   }
@@ -176,6 +166,7 @@ body { background-color: #00000000; }
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .contact {
