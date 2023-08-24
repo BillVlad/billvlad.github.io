@@ -1,9 +1,9 @@
 document.querySelector('.check').addEventListener('click', () => {
-    let key = document.createElement('key'); key.id = "keyb";
+    let key = document.createElement('div'); key.id = "keyb";
     let desktopscreen = window.screen.width >= 600;
     if (desktopscreen) {
         key.innerHTML = "<object width=1200 height=420 data='html/tester.html'></object>";
-        document.querySelector('.pr').appendChild(key);
+        document.querySelector('.keyboard-menu').appendChild(key);
     } else {
         alert("На телефоне открыть тестер клавиатуры нельзя!")
     }
